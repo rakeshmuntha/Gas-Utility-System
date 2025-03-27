@@ -73,25 +73,46 @@ pip install -r requirements.txt
 
 ### Directory Structure
 ```
+Main
+├── attachments
+├── db.sqlite3
 ├── gasutility
-│   ├── services
-│   │   ├── migrations
-│   │   ├── static
-│   │   │   └── css
-│   │   │       └── style.css
-│   │   ├── templates
-│   │   │   └── services
-│   │   │       ├── home.html
-│   │   │       ├── submit_request.html
-│   │   │       ├── track_requests.html
-│   │   ├── urls.py
-│   │   ├── views.py
-│   ├── db.sqlite3
-│   ├── manage.py
-│   └── requirements.txt
-
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+├── media
+│
+├── services
+│   ├── __init__.py
+│   ├── __pycache__
+│   │  
+│   ├── admin.py 
+│   ├── apps.py
+│   ├── migrations
+│   │ 
+│   ├── models.py
+│   ├── static
+│   │   └── css
+│   │       └── style.css
+│   ├── templates
+│   │   └── services
+│   │       ├── customer.html
+│   │       ├── home.html
+│   │       ├── login.html
+│   │       ├── register.html
+│   │       ├── request_options.html
+│   │       ├── submit_request.html
+│   │       └── track_requests.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+└── structure.txt
 ```
-
 
 ### Database Migration
 
