@@ -1,0 +1,19 @@
+<h2>Submit Service Request</h2>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<form method="POST" enctype="multipart/form-data" action="{% url 'submut' %}">
+    {% csrf_token %}
+    
+    <label>Request Type:</label>
+    <input type="text" name="request_type" required><br>
+    
+    <label>Description:</label>
+    <textarea name="description" required></textarea><br>
+
+    <label>Attachment (optional):</label>
+    <input type="file" name="attachment"><br>
+
+    <button type="submit">Submit Request</button>
+</form>

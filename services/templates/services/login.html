@@ -1,0 +1,11 @@
+<h2>Login</h2>
+<head>
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <a href="{% url 'request_options' %}">Login</button>
+</form>
+<a href="{% url 'register' %}">Don't have an account? Register here</a>

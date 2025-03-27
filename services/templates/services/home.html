@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    {% load static %}  
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1>Welcome to Gas Utility System</h1>
+    <a href="{% url 'customer' %}"><button>Customer Login</button></a>
+    <a href="http://127.0.0.1:8000/admin/login/?next=/admin/"><button>Admin Login</button></a>
+</body>
+</html>

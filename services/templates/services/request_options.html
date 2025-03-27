@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Request Options</title>
+    
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    
+</head>
+<body>
+    <h1>Choose an Option</h1>
+    <a href="{% url 'submit_request' %}"><button>Submit Request</button></a>
+    <a href="{% url 'track_request' %}"><button>Track Request</button></a>
+    
+</body>
+</html>

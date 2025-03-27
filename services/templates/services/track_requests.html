@@ -1,0 +1,13 @@
+<h2>Track Your Requests</h2>
+
+<ul>
+    {% for request in requests %}
+        <li>
+            <strong>Type:</strong> {{ request.request_type }}<br>
+            <strong>Status:</strong> {{ request.status }}<br>
+            <strong>Submitted on:</strong> {{ request.created_at }}
+        </li>
+    {% empty %}
+        <p>No service requests yet.</p>
+    {% endfor %}
+</ul>
