@@ -33,6 +33,7 @@ Service Request Submission:
 * Update request status for better customer communication.
 
 ### Output ScreenShots:
+<img width="400" alt="Screenshot 2025-03-27 at 4 48 37 PM" src="https://github.com/user-attachments/assets/406a4eaa-40a0-47c4-8fc3-c88d8b68260f" />
 <img width="400" alt="Screenshot 2025-03-27 at 3 51 01 PM" src="https://github.com/user-attachments/assets/c634f32a-d480-43f7-a49a-a90485e1ddb2" />
 <img width="400" alt="Screenshot 2025-03-27 at 3 50 51 PM" src="https://github.com/user-attachments/assets/b9640ec5-24aa-4e27-8d08-62a6afb8d9a9" />
 <img width="400" alt="Screenshot 2025-03-27 at 3 51 59 PM" src="https://github.com/user-attachments/assets/d824136a-14d3-4d5b-834f-a69389785800" />
