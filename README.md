@@ -51,9 +51,9 @@ HTML5, CSS3, JavaScript (for UI)
 
 SQLite (Database)
 
-Installation Guide
+## Installation Guide
 
-## Clone the Repository
+### Clone the Repository
 
 ```
  git clone https://github.com/rakeshmuntha/gas-utility-system.git
@@ -61,7 +61,7 @@ Installation Guide
 
 ```cd gas-utility-system```
 
-## Create a Virtual Environment
+### Create a Virtual Environment
 
 python -m venv venv
 source venv/bin/activate  # (For Linux/Mac)
